@@ -1,0 +1,79 @@
+
+section.mid {
+    overflow-y: hidden;
+    background: url("../img/footer-bg.jpg");
+    background-size: cover;
+    padding: 25px 0;
+
+    img {
+        margin: -70px 0;
+    }
+
+    nav {
+        display: flex;
+        gap: 50px;
+
+        h3 {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 20px;
+
+            li {
+                margin: 5px 0;
+                a {
+                    font-size: 0.8rem;
+                    color: #959595;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.bot {
+    padding: 50px 0;
+    background: #303030;
+
+    a.signup {
+        border: 3px solid $main-color;
+        padding: 15px;
+        font-size: 1.4rem;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover {
+            background: $main-color;
+        }
+    }
+
+    .social {
+        display: flex;
+        gap: 30px;
+
+        h3 {
+            font-size: 1.6rem;
+            color: $main-color;
+            text-transform: uppercase;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                display: inline;
+                margin: 10px;
+            }
+        }
+    }
+}
