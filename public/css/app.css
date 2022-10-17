@@ -86,7 +86,7 @@ main {
   background-color: #1C1C1C;
   padding-top: 20px;
 }
-main .container-main {
+main .container {
   position: relative;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -411,10 +411,12 @@ section .details-container .details-right img {
   border-bottom: 1px solid #e3e3e3;
 }
 
-.container-form {
-  background-color: #fff;
+section .container-form {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
-.container-form .form-edit {
+section .form-edit {
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -422,18 +424,18 @@ section .details-container .details-right img {
   border-radius: 3px;
   align-items: flex-start;
 }
-.container-form .form-edit label {
+section .form-edit label {
   padding: 5px, 0;
   font-weight: 600;
   display: block;
 }
-.container-form .form-edit input {
+section .form-edit input {
   padding: 4px;
   display: block;
 }
-.container-form .form-edit button {
+section .form-edit button {
   margin: 1rem 0;
-  padding: 5px 10px;
+  padding: 10px;
   display: block;
   background-color: #0282F9;
   font-weight: 600;
@@ -441,6 +443,6 @@ section .details-container .details-right img {
   border: none;
   cursor: pointer;
 }
-.container-form .form-edit button:hover {
+section .form-edit button:hover {
   opacity: 0.6;
 }

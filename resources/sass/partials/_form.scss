@@ -1,6 +1,9 @@
-.container-form {
-    background-color: #fff;
-
+section {
+    .container-form{
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
     .form-edit {
         padding: 1.5rem;
         display: flex;
@@ -23,7 +26,7 @@
 
         button {
             margin: 1rem 0;
-            padding: 5px 10px;
+            padding: 10px;
             display: block;
             background-color: #0282F9;
             font-weight: 600;

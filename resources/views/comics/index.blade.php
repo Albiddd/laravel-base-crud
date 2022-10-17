@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <div class="container-main">
+    <div class="container">
         <div class="current-series">CURRENT SERIES</div>
 
 
