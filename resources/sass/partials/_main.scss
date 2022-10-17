@@ -2,7 +2,7 @@ main {
     background-color: $main-content-bg;
     padding-top: 20px;
     
-    .container{
+    .container-main{
         position: relative;
         display: grid;
         grid-template-columns: repeat(6, 1fr);

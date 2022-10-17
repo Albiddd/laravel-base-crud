@@ -22,6 +22,15 @@
             </div>
         </div>
         <p>{{$comic['description']}}</p>
+        <div class="buttons">
+            <a class="btn-blue" href="{{route('comics.edit', compact('comic'))}}">Modifica</a>
+            <form class="delete-form" action="{{route('comics.destroy', $comic)}}" method="POST" onsubmit=" return confirm('Vuoi eliminare il fumetto?')">
+                @csrf
+                @method('DELETE')
+    
+                <button type="submit" class="btn-blue delete">Cancella</button>
+            </form>
+        </div>
     </div>
     <div class="details-right">
         <img src="{{ asset('img/adv.jpg') }}" alt="">

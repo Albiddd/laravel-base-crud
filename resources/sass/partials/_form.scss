@@ -1,0 +1,38 @@
+.container-form {
+    background-color: #fff;
+
+    .form-edit {
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        border-radius: 3px;
+        align-items: flex-start;
+
+        label {
+            padding: 5px, 0;
+            font-weight: 600;
+            display: block;
+        }
+
+        input {
+            padding: 4px;
+            display: block;
+        }
+
+
+        button {
+            margin: 1rem 0;
+            padding: 5px 10px;
+            display: block;
+            background-color: #0282F9;
+            font-weight: 600;
+            color: white;
+            border: none;
+            cursor: pointer;
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+    }
+}
