@@ -433,6 +433,9 @@ section .form-edit input {
   padding: 4px;
   display: block;
 }
+section .form-edit .alert {
+  color: red;
+}
 section .form-edit button {
   margin: 1rem 0;
   padding: 10px;
